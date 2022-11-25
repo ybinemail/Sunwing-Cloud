@@ -1,0 +1,11 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunwing.cloud.system.mapper.SystemTableMapper">
+
+    <select id="list" resultType="com.sunwing.cloud.system.entity.SystemTable">
+        select * from system_table
+    </select>
+
+    <select id="page" resultType="com.sunwing.cloud.system.entity.SystemTable">
+        select * from system_table
+    </select>
+</mapper>
