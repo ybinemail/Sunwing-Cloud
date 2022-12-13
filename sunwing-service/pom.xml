@@ -43,6 +43,11 @@
             <artifactId>sunwing-platform-swagger</artifactId>
         </dependency>
 
+        <!-- Spring Boot自定义及扩展 -->
+        <dependency>
+            <groupId>com.sunwing.platform</groupId>
+            <artifactId>sunwing-platform-boot</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

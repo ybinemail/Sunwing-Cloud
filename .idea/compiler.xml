@@ -22,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Sunwing-Cloud" options="" />
       <module name="sunwing-common" options="-parameters" />
       <module name="sunwing-oauth" options="-parameters" />
       <module name="sunwing-plugin" options="-parameters" />
