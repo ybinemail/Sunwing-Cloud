@@ -7,15 +7,12 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * Hello world!
- *
  */
 @MapperScan("com.sunwing.*.*.mapper")
 @SpringBootApplication
 @ComponentScan(basePackages = "com.sunwing")
-public class ServiceSystemApplication
-{
-    public static void main( String[] args )
-    {
-        SpringApplication.run(ServiceSystemApplication.class,args);
+public class ServiceSystemApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ServiceSystemApplication.class, args);
     }
 }

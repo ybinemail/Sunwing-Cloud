@@ -22,22 +22,26 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <!-- spring boot 健康监控 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!-- Spring Boot mybatis -->
         <dependency>
             <groupId>com.sunwing.platform</groupId>
             <artifactId>sunwing-platform-mybatis</artifactId>
         </dependency>
 
+        <!-- Spring Boot db -->
         <dependency>
             <groupId>com.sunwing.platform</groupId>
             <artifactId>sunwing-platform-db</artifactId>
         </dependency>
 
+        <!-- swagger 拓展 -->
         <dependency>
             <groupId>com.sunwing.platform</groupId>
             <artifactId>sunwing-platform-swagger</artifactId>
@@ -48,6 +52,12 @@
             <groupId>com.sunwing.platform</groupId>
             <artifactId>sunwing-platform-boot</artifactId>
         </dependency>
-    </dependencies>
 
+        <!-- Spring Boot cloud -->
+        <dependency>
+            <groupId>com.sunwing.platform</groupId>
+            <artifactId>sunwing-platform-cloud</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
