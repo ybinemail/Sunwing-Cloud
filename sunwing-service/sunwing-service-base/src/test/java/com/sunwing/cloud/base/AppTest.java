@@ -1,4 +1,4 @@
-package com.sunwing.cloud.service;
+package com.sunwing.cloud.base;
 
 import static org.junit.Assert.assertTrue;
 

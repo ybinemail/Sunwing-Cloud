@@ -14,4 +14,12 @@
 
     <name>sunwing-service-base</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.sunwing.cloud</groupId>
+            <artifactId>sunwing-service-system-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

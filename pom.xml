@@ -14,6 +14,7 @@
         <module>sunwing-plugin</module>
         <module>sunwing-service</module>
         <module>sunwing-service-api</module>
+        <module>sunwing-service-system-api</module>
     </modules>
 
     <properties>

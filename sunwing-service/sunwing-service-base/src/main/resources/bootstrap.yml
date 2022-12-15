@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 129.211.3.251:8848
+      config:
+        server-addr: 129.211.3.251:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+        enabled: true
+  application:
+    name: sunwing-service-base
+server:
+  port: 8002

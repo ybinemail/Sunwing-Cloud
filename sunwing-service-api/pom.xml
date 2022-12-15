@@ -10,10 +10,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>sunwing-service-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>sunwing-service-system-api</module>
+    </modules>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
+    <dependencies>
+        <!-- swagger 拓展 -->
+        <dependency>
+            <groupId>com.sunwing.platform</groupId>
+            <artifactId>sunwing-platform-swagger</artifactId>
+        </dependency>
+
+        <!-- Spring Boot自定义及扩展 -->
+        <dependency>
+            <groupId>com.sunwing.platform</groupId>
+            <artifactId>sunwing-platform-boot</artifactId>
+        </dependency>
+
+        <!-- Spring Boot cloud -->
+        <dependency>
+            <groupId>com.sunwing.platform</groupId>
+            <artifactId>sunwing-platform-cloud</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

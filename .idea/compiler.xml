@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sunwing-service-api" />
+        <module name="sunwing-service-system" />
+        <module name="sunwing-service-system-api" />
         <module name="sunwing-service-base" />
         <module name="sunwing-oauth" />
-        <module name="sunwing-service-system" />
         <module name="sunwing-common" />
         <module name="sunwing-plugin" />
       </profile>
@@ -18,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="sunwing-service-bigdat" target="1.8" />
       <module name="sunwing-service-bigdata" target="1.8" />
+      <module name="sunwing-service-system-api11" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,11 +28,13 @@
       <module name="sunwing-oauth" options="-parameters" />
       <module name="sunwing-plugin" options="-parameters" />
       <module name="sunwing-service" options="" />
-      <module name="sunwing-service-api" options="-parameters" />
+      <module name="sunwing-service-api" options="" />
       <module name="sunwing-service-base" options="-parameters" />
       <module name="sunwing-service-bigdat" options="-parameters" />
       <module name="sunwing-service-bigdata" options="-parameters" />
       <module name="sunwing-service-system" options="-parameters" />
+      <module name="sunwing-service-system-api" options="-parameters" />
+      <module name="sunwing-service-system-api11" options="-parameters" />
     </option>
   </component>
 </project>
