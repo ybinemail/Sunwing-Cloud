@@ -25,6 +25,9 @@ public class SystemController {
     @Value("${spring.datasource.druid.maxActive}")
     private int nacosMaxActiveType;
 
+    @Value("${server.port}")
+    private String serverPort;
+
     public SystemController(ISystemService systemService) {
         this.systemService = systemService;
     }
@@ -74,6 +77,16 @@ public class SystemController {
         return Result.data(systemDTO);
     }
 
+    @GetMapping("/api/ribbon")
+    @ApiOperation(value = "Ribbon调用测试接口")
+    public Result<String> testRibbon() {
+        return Result.data("现在访问的服务端口是:" + serverPort);
+    }
 
+    @ApiOperation(value = "限流测试")
+    @GetMapping(value = "sentinel/protected")
+    public Result<String> sentinelProtected() {
+        return Result.data("访问的是限流测试接口");
+    }
 }
 

@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sunwing-service-system" />
         <module name="sunwing-service-system-api" />
         <module name="sunwing-service-base" />
         <module name="sunwing-oauth" />
+        <module name="sunwing-service-system" />
         <module name="sunwing-common" />
         <module name="sunwing-plugin" />
       </profile>
@@ -23,11 +23,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Sunwing-Cloud" options="-parameters" />
+      <module name="Sunwing-Cloud" options="" />
       <module name="sunwing-common" options="-parameters" />
       <module name="sunwing-oauth" options="-parameters" />
       <module name="sunwing-plugin" options="-parameters" />
-      <module name="sunwing-service" options="" />
+      <module name="sunwing-service" options="-parameters" />
       <module name="sunwing-service-api" options="" />
       <module name="sunwing-service-base" options="-parameters" />
       <module name="sunwing-service-bigdat" options="-parameters" />

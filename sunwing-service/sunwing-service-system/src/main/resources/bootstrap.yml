@@ -10,5 +10,7 @@ spring:
         enabled: true
   application:
     name: sunwing-service-system
+
 server:
   port: 8001
+
